@@ -1,0 +1,73 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Creación de scripts SLURM </title>    
+</head>
+<body>
+	
+<form method ="post" action="creandoscript.php">
+
+	Cola de ejecución a elegir:
+	<select name="queue">
+	<option>q1h-20p
+	<option>q1d-20p 
+	<option>q4d-20p
+	<option>q7d-20p
+	<option>q1h-40p
+	<option>q1d-40p
+	<option>q4d-40p
+	<option>q1h-80p
+	<option>q1h-80p
+	<option>q12h-80p
+	<option>q1d-80p
+	<option>q1h-160p
+	<option>q12h-160p
+	<option>q1d-160p
+	<option>q5d-160p
+	<option>q1h-320p
+	<option>q12h-320p
+	<option>q1d-320p
+	<option>q1d-640p
+	<option>gpus
+	</select>
+	<br>
+	
+	<?php   echo "Holas aquiiiiiiiiiiiiiiiiiiiiiiiiiiii";
+	
+	?>
+
+	Número de nodos a usar:
+	<input type="text" name="nodos"><br>
+
+	Número de cores a usar:
+	<input type="text" name="cores"><br>
+
+	Tiempo máximo a ejecutar:
+	<input type="text" name="tiempo"><br>
+
+	Nombre del archivo de salida:
+	<input type="text" name="output"><br>
+
+	Nombre del archivo de error:
+	<input type="text" name="error"><br>
+
+	Nombre del job a ejecutar:
+	<input type="text" name="nombre"><br>
+
+	Nombre del archivo de entrada:
+	<input type="text" name="input"><br>
+
+	Nombre de la aplicación a usar:
+	<input type="text" name="app"><br>
+
+	Versión de la aplicación a usar:
+	<input type="text" name="ver"><br>
+
+	Nombre del ejecutable de la aplicación a usar:
+	<input type="text" name="exec"><br>
+
+	<input type ="submit" value="CREAR SCRIPT"><br>
+
+</form>
+</body>
+</html>

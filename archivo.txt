@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+#SBATCH -pq12h-80p
+#SBATCH -N jbj
+#SBATCH -n bnkjn
+#SBATCH -t jbkj
+#SBATCH -o bjkb
+#SBATCH -e bjkb
+#SBATCH --jobname jhkb
+module load apli1/1.1
+
+
+jnkbnjk njk
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N j
+#SBATCH -n j
+#SBATCH -t j
+#SBATCH -o j
+#SBATCH -e j
+#SBATCH --jobname j
+module load apli2/2.1
+
+
+jnk j
+
+
+exit 0
