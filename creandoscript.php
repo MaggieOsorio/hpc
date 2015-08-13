@@ -19,6 +19,7 @@
 
 		<?php
 		
+		
 			//BADE DE DATOS
 				//CONEXION CON LA BASE DE DATOS
 				$link = mysql_connect('localhost', 'root', '')

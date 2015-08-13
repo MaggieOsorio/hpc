@@ -30,4 +30,628 @@ module load apli2/2.1
 jnk j
 
 
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli3/3.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli3/3.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N jjjj
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N jjjj
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli1/1.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli1/1.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli1/1.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli3/3.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
 exit 0

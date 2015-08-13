@@ -18,11 +18,40 @@
 				})
 			})
 		</script>
+	
+	<script type="text/javascript" src="validaFormulario.js"></script>
 	<link type="text/css" href="http://localhost/hpc/bootstrap/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
 	
 	<link type="text/css" rel="stylesheet" href="hpc/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
 	
 	<style type="text/css">
+		#error-nodos,#error-mail,#error-pass{
+color:red;
+text-align:center;
+padding-left:20px;
+display: none;
+position: absolute;
+ margin-top: -50px;
+            margin-left: 180px;
+            padding: 10px;
+			
+			
+			
+			background: red;
+            display: none;
+            font-size: 14px;
+            margin-left: 180px;
+            padding: 10px;
+            position: absolute;
+}
+
+		.errores{
+			color:red;
+text-align:center;
+padding-left:20px;
+display: none;
+            
+        }
 	</style>
 	
 </head>
@@ -37,7 +66,7 @@
 		
 		<div class="col-md-5 col-md-offset-1">
 		
-		<form method ="get" action="creandoscript.php">
+		<form method ="get" action="creandoscript.php" name="form1" onsubmit="return validarForm(this);" >
 	
 			<div class="form-group">
 			<label >Cola de ejecución a elegir:</label>
@@ -69,13 +98,15 @@
 	<div>
 	<!--LOS NODOS VAN A DEPENDER DE LA COLA DE EJECUCION, CON RESPECTO AL SEGUNDO NUM. SI ES 20P -> MAX 1 SI ES 40P->MAX 2...-->
 	<label>Número de nodos a usar:</label> 
-	<input type="text" name="nodos" class="form-control"><br> 
+	<input type="text" id="nodos" name="nodos" class="form-control"><br> 
+	<div id="mensaje1" class="errores"> falta nodos</div>
 	</div>
 	
 	<div>
 	<!--LOS CORES VAN A DEPENDER DE LA COLA DE EJECUCION, CON RESPECTO AL SEGUNDO NUM. SI ES 20P -> MAX 20 SI ES 40P->MAX 20...-->
 	<label>Número de cores a usar:</label> 
-	<input type="text" name="cores" class="form-control"><br> 
+	<input type="text" id="cores" name="cores" class="form-control"><br> 
+	<div id="mensaje2" class="errores"> falta cores</div>
 	</div>
 	
 	<div>
@@ -127,7 +158,7 @@
 	</div>
 	
 	<div>
-	<input type ="submit" value="CREAR SCRIPT"><br>
+	<input type ="submit" id="bEnviar" value="CREAR SCRIPT" ><br>
 	</div>
 	
 	</div>
