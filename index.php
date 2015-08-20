@@ -25,33 +25,9 @@
 	<link type="text/css" rel="stylesheet" href="hpc/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
 	
 	<style type="text/css">
-		#error-nodos,#error-mail,#error-pass{
-color:red;
-text-align:center;
-padding-left:20px;
-display: none;
-position: absolute;
- margin-top: -50px;
-            margin-left: 180px;
-            padding: 10px;
-			
-			
-			
-			background: red;
-            display: none;
-            font-size: 14px;
-            margin-left: 180px;
-            padding: 10px;
-            position: absolute;
-}
+		
 
-		.errores{
-			color:red;
-text-align:center;
-padding-left:20px;
-display: none;
-            
-        }
+		
 	</style>
 	
 </head>
@@ -70,7 +46,7 @@ display: none;
 	
 			<div class="form-group">
 			<label >Cola de ejecución a elegir:</label>
-			<select name="queue" class="form-control">
+			<select id="cola" name="queue" class="form-control">
 			<option>q1h-20p</option>
 			<option>q1d-20p</option> 
 			<option>q4d-20p</option>
@@ -98,42 +74,47 @@ display: none;
 	<div>
 	<!--LOS NODOS VAN A DEPENDER DE LA COLA DE EJECUCION, CON RESPECTO AL SEGUNDO NUM. SI ES 20P -> MAX 1 SI ES 40P->MAX 2...-->
 	<label>Número de nodos a usar:</label> 
-	<input type="text" id="nodos" name="nodos" class="form-control"><br> 
-	<div id="mensaje1" class="errores"> falta nodos</div>
+	<input type="text" id="num_nodos" name="nodos" class="form-control"><br> 
+	<div id="msj_nodos" style="color:red;"></div>
 	</div>
 	
 	<div>
 	<!--LOS CORES VAN A DEPENDER DE LA COLA DE EJECUCION, CON RESPECTO AL SEGUNDO NUM. SI ES 20P -> MAX 20 SI ES 40P->MAX 20...-->
 	<label>Número de cores a usar:</label> 
-	<input type="text" id="cores" name="cores" class="form-control"><br> 
-	<div id="mensaje2" class="errores"> falta cores</div>
+	<input type="text" id="num_cores" name="cores" class="form-control"><br> 
+	<div id="msj_cores"></div>
 	</div>
 	
 	<div>
 	<!--puede se numero ej 10 que significa 10min o formato 1:30:00-->
 	<label>Tiempo máximo a ejecutar:</label>  
-	<input type="text" name="tiempo" class="form-control"><br>
+	<input type="text" id="time" name="tiempo" class="form-control"><br>
+	<div id="msj_time"></div>
 	</div>
 	
 	<div>
 	<label>Nombre del archivo de salida:</label> 
-	<input type="text" name="output" class="form-control"><br>
+	<input type="text" id="nom_archi_salida" name="output" class="form-control"><br>
+	<div id="msj_nom_archi_salida"></div>
 	</div>
 	
 	<div>
 	<label>Nombre del archivo de error:</label> 
-	<input type="text" name="error" class="form-control"><br>
+	<input type="text" id="nom_archi_error" name="error" class="form-control"><br>
+	<div id="msj_nom_archi_error"></div>
 	</div>
 	
 	<div>
 	<label>Nombre del job a ejecutar:</label> 
-	<input type="text" name="nombre" class="form-control"><br>
+	<input type="text" id="nom_job" name="nombre" class="form-control"><br>
+	<div id="msj_nom_job"></div>
 	</div>
 	
 		
 	<div>
 	<label>Nombre del archivo de entrada:</label>
-	<input type="text" name="input" class="form-control"><br>
+	<input type="text" id="nom_archi_entrada" name="input" class="form-control"><br>
+	<div id="msj_nom_archi_entrada"></div>
 	</div>
 	
 	<div>
