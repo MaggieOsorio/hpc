@@ -894,4 +894,116 @@ module load /
  
 
 
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 1
+#SBATCH -n 8
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 1
+#SBATCH -n 8
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load apli2/2.1
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 2
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 1
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 500
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
+exit 0#!/bin/bash
+
+
+#SBATCH -pq1h-20p
+#SBATCH -N 
+#SBATCH -n 
+#SBATCH -t 
+#SBATCH -o 
+#SBATCH -e 
+#SBATCH --jobname 
+module load /
+
+
+ 
+
+
 exit 0

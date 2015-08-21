@@ -20,6 +20,7 @@
 		</script>
 	
 	<script type="text/javascript" src="validaFormulario.js"></script>
+	
 	<link type="text/css" href="http://localhost/hpc/bootstrap/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
 	
 	<link type="text/css" rel="stylesheet" href="hpc/bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
@@ -70,6 +71,7 @@
 	</select>
 	<br>
 		</div>
+	
 	
 	<div>
 	<!--LOS NODOS VAN A DEPENDER DE LA COLA DE EJECUCION, CON RESPECTO AL SEGUNDO NUM. SI ES 20P -> MAX 1 SI ES 40P->MAX 2...-->
@@ -123,6 +125,7 @@
 	
 	</select><br>
 	</div>
+	<div id="msj_nom_apli"></div>
 	
 	<div>
 	<label>Versión de la aplicación a usar:</label>
